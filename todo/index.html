@@ -3,11 +3,24 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="Width=device-width, initial-scale=1.0" />
-    <title>Title</title>
+    <title>ToDo</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
   </head>
   <body>
-    <h1>Hello Sen</h1>
+    <h1>todos</h1>
+    <form id="form">
+      <input
+        id="input"
+        class="input"
+        placeholder="Enter your todo"
+        autocomplete="off"
+      />
+      <ul class="todos" id="todos">
+
+      </ul>
+    </form>
+    <small>Left click to mark as complete
+      <br> Right click to remove the todo</small>
   </body>
 </html>
