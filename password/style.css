@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rebeccapurple;
+  color: white;
+  font-family: "Sen", sans-serif;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+button {
+  cursor: pointer;
+}
+
+.pw-container {
+  background-color: rgb(46, 12, 80);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  min-width: 400px;
+  border-radius: 5px;
+}
+
+.pw-header {
+  padding: 1rem;
+}
+
+.pw {
+  background-color: rebeccapurple;
+  display: flex;
+  font-size: 1.5rem;
+  align-items: center;
+  border-radius: 5px;
+  /* overflow-y: hidden;
+  overflow-x: auto; */
+  height: 70px;
+  width: 100%;
+  position: relative;
+  padding: 1rem;
+}
+
+/* .pw::-webkit-scrollbar {
+  display: none;
+} */
+
+.pw button {
+  background-color: white;
+  color: rgb(29, 2, 56);
+  padding: 0.25rem;
+  font-family: inherit;
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(0, 20%);
+  opacity: 0;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.pw button:active {
+  background-color: #ddd;
+}
+
+.pw:hover button {
+  opacity: 1;
+  transform: translate(0, 0%);
+}
+
+.pw-body {
+  padding: 0 1rem 1rem;
+}
+
+.form-control {
+  color: #eee;
+  display: flex;
+  justify-content: space-between;
+  margin: 0.75rem 0;
+}
+
+.generate {
+  display: block;
+  background-color: #ecb602;
+  color: rebeccapurple;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 0.75rem;
+  margin-top: 1rem;
+  border: none;
+  width: 100%;
+}
